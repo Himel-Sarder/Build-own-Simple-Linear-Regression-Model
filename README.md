@@ -76,9 +76,6 @@ class MyLinearRegression:
   - **Root Mean Squared Error (RMSE)**: Measures prediction accuracy.  
   - **R-squared**: Indicates the proportion of variance explained by the model.  
 
-#### Regression Equation:  
-\[ \text{Sales} = 6.9487 + 0.0545 \times \text{TV Spend} \]  
-
 #### Key Results:  
 - **RMSE**: 2.019  
 - **R-squared**: 0.816  
@@ -92,49 +89,6 @@ Using `statsmodels`, we validated the model and obtained the following summary:
 | Intercept        | 6.9748 |  
 | P-value          | 0.000  |  
 | R-squared        | 0.812  |  
-
----
-
-## Visualizations
-
-### 1. **Scatter Plot with Best-Fit Line**  
-![Scatter Plot](image.png)  
-This plot highlights the relationship between TV spend and sales, with the regression line superimposed.  
-
-### 2. **Residual Analysis**  
-Residual plots confirmed the assumptions of linear regression:  
-- Errors were normally distributed.  
-- No patterns were observed, indicating homoscedasticity.  
-
----
-
-## Steps to Reproduce
-
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/Himel-Sarder/Advertising-Linear-Regression.git
-   cd Advertising-Linear-Regression
-   ```
-
-2. **Install Dependencies**  
-   Ensure the following Python libraries are installed:  
-   - `pandas`  
-   - `numpy`  
-   - `matplotlib`  
-   - `seaborn`  
-   - `sklearn`  
-   - `statsmodels`  
-
-   Install using pip:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Script**  
-   Execute the Python script to train the model and generate visualizations:  
-   ```bash
-   python regression_analysis.py
-   ```
 
 ---
 
