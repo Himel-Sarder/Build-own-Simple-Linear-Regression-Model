@@ -1,4 +1,5 @@
 # Build-own-Simple-Linear-Regression-Model
+![image](https://github.com/user-attachments/assets/d4c97e8c-72c2-45eb-906a-ecd131a04f9d)
 
 ## Overview
 
